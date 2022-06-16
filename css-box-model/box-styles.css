@@ -17,8 +17,7 @@ em, strong {
     margin-bottom: 50px;
   }
   
-
-  div {
+  /* div {
     color: #f1eeee;
     background-color: #29fd2f;
     font-weight: bold;
@@ -26,4 +25,34 @@ em, strong {
     text-align: center;
     border: 2px solid #0b24fb;
     border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px auto;
+  } */
+  .button {
+    color: #FFF;
+    background-color: #270a5e;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #0b24fb;
+    border-radius: 5px;
+  
+    width: 200px;
+    margin: 20px auto;
   }
+  
+  body {
+    text-align: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+.call-to-action {
+        font-style: italic;
+        background-color: #0b24fb;
+      }
+/* .synopsis em {
+        font-style: normal;
+      } */
