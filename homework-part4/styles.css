@@ -2,6 +2,7 @@
     margin:0;
 }
 .header, .footer {
+    width: 100%;
     background-color: #FE1A19;
     padding: 20px 0px 20px 20px;
     font-size: 20px;
@@ -10,9 +11,8 @@
 }
 .body-cont {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     margin: 52px 45px 52px 45px;
-
 }
 .recipe {
     width: 334px;
@@ -24,9 +24,10 @@
     padding: 33px;
     font-family: 'Times New Roman', Times, serif;
 }
-.recipe li {
-    list-style-type: none;
-    margin-left: -40px;
+.recipe ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
 }
 .recipe p{
     margin-bottom: 41px ;
