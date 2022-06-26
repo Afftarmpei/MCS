@@ -1,0 +1,34 @@
+*{
+    margin:0;
+}
+.header, .footer {
+    background-color: #FE1A19;
+    padding: 20px 0px 20px 20px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+}
+.body-cont {
+    display: flex;
+    justify-content: start;
+    margin: 52px 45px 52px 45px;
+
+}
+.recipe {
+    width: 334px;
+    margin: 0px 25px 0px 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #E5E000;
+    border-radius: 30px;
+    padding: 33px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.recipe li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+.recipe p{
+    margin-bottom: 41px ;
+    font-weight: bold;
+}
