@@ -30,5 +30,20 @@
         <div class="item"><img src="images/static.svg" /></div>
      </div>
     </div>
+    <script>
+        var left = 0;
+      
+        function frame() {
+          var element = document.querySelector('.item-relative');
+          left += 20;
+          element.style.left = left + 'px';
+      
+          if (left >= 1000) {
+           clearInterval(id)
+          }
+        }
+      
+        var id = setInterval(frame, 10)
+      </script>
   </body>
 </html>

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1200px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #000000;
+  }
+  
+  a:link,
+  a:visited {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .header {
+    width: 100%;
+    padding: 50px;
+  
+    display: flex;
+    justify-content: space-between;
+  
+    position: fixed;
+    
+    background: #f1eeee;
+  }
+  .d12 {
+    border: #000000 solid;
+    height: 400px;
+  }
+  .menu {
+    margin-top: 15px;
+  }
+  
+  .menu > li {
+    margin-right: 50px;
+    display: inline;
+  }
+  
+  .menu > li:last-of-type {
+    margin-right: 0;
+  }
+  .features-menu {
+    display: none;
+    padding-top: 60px;
+    flex-direction: column;
+    background: #29fd2f;
+    border-radius: 5px;
+    position: absolute;      /* Добавим это */
+    top: -25px;              /* Добавим это */
+    left: -30px;             /* Добавим это */
+  }
+  
+  .features-menu li {
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+    padding: 0 40px 10px 20px;
+    margin: 10px;
+  }
+  
+  .features-menu li:last-of-type {
+    border-bottom: none;
+  }
+  
+  .features-menu li {
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+    padding: 0 40px 10px 20px;
+    margin: 10px;
+  }
+  
+  .features-menu li:last-of-type {
+    border-bottom: none;
+  }
+  .dropdown:hover .features-menu {
+    padding-top: 60px;
+  
+    display: flex;
+    flex-direction: column;
+    background: #B2D6FF;
+    border-radius: 5px;
+    position: absolute;      /* Добавим это */
+    top: -25px;              /* Добавим это */
+    left: -30px;             /* Добавим это */
+  }
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown > span {
+    z-index: 2;
+    position: relative;  /* Это очень важно! */
+    cursor: pointer;
+  }
+  
+  .features-menu {
+    /* ... */
+    z-index: 1;
+  }

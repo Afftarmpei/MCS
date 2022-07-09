@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color:#E50043;
+    margin: 50px;
+}
+ .logo{margin-right: auto;
+ }
+.up-link li{
+    display: inline;
+}
+.about li:not(:last-of-type) {
+    margin-left: 25px;
+    }
+.up-link li a{
+    text-decoration: none; 
+    color:#E50043
+}
+.up-pic{
+    display: flex;
+    color:#E50043;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 100px;
+    line-height: 115px;
+    align-items: center;
+    height: 950px;
+    background-image: url(images/evian_origins_logo.png);
+    background-size:cover;
+}
+.up-pic p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+.about{
+    padding: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin:150px 199px 150px 201px;
+    font-family: 25px;
+    border:#F8BFC7 solid 3px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about p:not(:last-of-type) {
+margin-bottom: 25px;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-pic{
+    display: flex;
+    width: 281px;
+    height: 863px;
+}
+#pic1{
+    background-image: url(images/wang.png);
+}
+#pic2{
+    background-image: url(images/blue.png);
+}
+#pic3 {
+    background-image: url(images/chiara.png);
+}
+.product-text{
+    display: flex;
+    justify-content: center;
+    margin-top:48px;
+    text-align: center;
+} 
+.offer{
+    display: flex;
+    justify-content: space-around;
+    margin:150px 199px 150px 201px;
+    font-family: 25px;
+    border:#F8BFC7 solid 3px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.offer-pic{
+    display: flex;
+    background-image: url(images/glass.png);
+    min-width: 101px;
+    height: 220px;
+    margin: 30px 80px 30px 80px;
+
+}
+.offer-text{
+    display: flex;
+    margin: 30px 30px 30px 0px;
+    align-items: center;                
+    letter-spacing: 0.05em;
+} 
+.footer{
+    background: #F8BFC7;
+    color:#fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 0px 50px 50px;
+}
