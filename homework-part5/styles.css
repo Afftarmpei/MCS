@@ -49,6 +49,7 @@
     flex-flow: column wrap;
     justify-content: center;
     margin:150px 199px 150px 201px;
+    width: 1040px;
     font-family: 25px;
     border:#F8BFC7 solid 3px;
     border-radius: 20px;
@@ -85,6 +86,7 @@ margin-bottom: 25px;
     display: flex;
     justify-content: space-around;
     margin:150px 199px 150px 201px;
+    width: 1040px;
     font-family: 25px;
     border:#F8BFC7 solid 3px;
     border-radius: 20px;
