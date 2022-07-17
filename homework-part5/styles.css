@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
-.header {    font-family: 'Arial';
+.main-cont {
+    width: 1040px;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.header {    
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 400px;
     font-size: 50px;
@@ -37,31 +44,24 @@
     height: 950px;
     background-image: url(images/evian_origins_logo.png);
     background-size:cover;
+    justify-content: center;
 }
 .up-pic p {
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 150px;
 }
-.about{
+.border{
     padding: 24px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    width: 1040px;
     font-family: 25px;
     border:#F8BFC7 solid 3px;
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.about p:not(:last-of-type) {
+.border h3{
 margin-bottom: 25px;
 }
 .products{
+    margin-top: 150px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -70,41 +70,19 @@ margin-bottom: 25px;
     width: 281px;
     height: 863px;
 }
-#pic1{
-    background-image: url(images/wang.png);
-}
-#pic2{
-    background-image: url(images/blue.png);
-}
-#pic3 {
-    background-image: url(images/chiara.png);
-}
 .product-text{
     display: flex;
     justify-content: center;
     margin-top:48px;
     text-align: center;
 } 
-.offer{
+.border-flex{
     display: flex;
     justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    width: 1040px;
-    font-family: 25px;
-    border:#F8BFC7 solid 3px;
-    border-radius: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .offer-pic{
     display: flex;
-    background-image: url(images/glass.png);
-    min-width: 101px;
-    height: 220px;
     margin: 30px 80px 30px 80px;
-
 }
 .offer-text{
     display: flex;
