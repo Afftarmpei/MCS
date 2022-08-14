@@ -15,6 +15,7 @@
    display:flex;
    flex-direction: row;
    flex-wrap: wrap;
+   width: 1440px;
 }
 .content-cont {
     width: 600px;
@@ -47,6 +48,7 @@
         flex-direction: row;
         font-size: 0.5em;
         flex-wrap: wrap;
+        width: 350px;
      }
     .content-cont {
         width: 330px;
