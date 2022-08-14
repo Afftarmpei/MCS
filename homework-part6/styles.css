@@ -56,6 +56,11 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .content-cont p {
+        font-family: 'Helvetica';
+        font-size: 0.5em;
+        text-align: center;
+        }
     .back {
         display:none;
     }
