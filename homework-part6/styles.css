@@ -15,10 +15,10 @@
    display:flex;
    flex-direction: row;
    flex-wrap: wrap;
-   width: 1440px;
+   justify-content: center;
 }
 .content-cont {
-    width: 600px;
+    width: 45%;
     height: 300px;
     border: solid 5px black;
     margin-right: 20px;
@@ -41,14 +41,10 @@
 }
 
 /* Макет для мобильных устройств */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
     .main-cont {
-        width: 100%;
         margin: 20px 22px 20px 22px; 
-        display:flex;
-        flex-direction: row;
         font-size: 0.5em;
-        flex-wrap: wrap;
      }
     .content-cont {
         width: 80%;
