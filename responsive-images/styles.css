@@ -1,0 +1,10 @@
+.header {
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+  }
+  
+  .photo img {
+    width: 100%;
+    display: block;
+  }
