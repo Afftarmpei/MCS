@@ -25,9 +25,10 @@ text-decoration: none;
 color: #000;
 }
 .up-main-cont{
-    width: 1440px;
+    width:100%;
     height: 643px;
     background-image: url(background.png);
+    
 }
 
 .form-cont {
