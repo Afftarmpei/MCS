@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Заявка на участие</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">		
+  </head>
+  <body>
+    <header class="speaker-form-header">
+      <h1>Заявка на участие</h1>
+      <p><em>Хотите прочитать доклад на конференции? Тогда заполните эту форму.</em></p>
+    </header>
+    <form action="" method="get" class="speaker-form">
+        <div class="form-row">
+            <label for="full-name">Имя</label>
+            <input id="full-name" name="full-name" type="text" placeholder="Введите Имя" required/>
+          </div>
+          <div class="form-row">
+            <label for="email">Почта</label>
+            <input id="email"
+              name="email"
+              type="email"
+              placeholder="mcs@example.com"/>
+          </div>
+          <fieldset class="legacy-form-row">
+            <legend>Tип доклада</legend>
+            <input id="talk-type-1"
+              name="talk-type"
+              type="radio"
+              value="main-stage" 
+              />
+            <label for="talk-type-1" class="radio-label">Главная сцена</label>
+            <input id="talk-type-2"
+              name="talk-type"
+              type="radio"
+              value="workshop"
+              checked />
+            <label for="talk-type-2" class="radio-label">Воркшоп</label>
+          </fieldset>
+          <div class="form-row">
+            <label for="t-shirt">Размер футболки</label>
+            <select id="t-shirt" name="t-shirt">
+              <option value="xs">XS</option>
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="abstract">Описание лекции</label>
+            <textarea id="abstract" name="abstract"></textarea>
+            <div class="instructions">Расскажите о своей лекции</div>
+          </div>
+          <div class="form-row">
+            <button>Отправить</button>
+          </div>
+    </form> 
+  </body>
+</html>
